@@ -51,7 +51,7 @@ public class ChatterBoxActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chat_layout);
+        setContentView(R.layout.activity_chat);
 
         // User login
         if (ParseUser.getCurrentUser() != null) { // start with existing user
