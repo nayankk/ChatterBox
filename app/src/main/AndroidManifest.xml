@@ -19,6 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="93bd0b59a90d46b1999e484431b83f41" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="{CLIENT_KEY}" />
+
+
     </application>
 
 </manifest>
